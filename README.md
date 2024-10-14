@@ -188,7 +188,7 @@ This service is in charge of verify if the base image any of the three categorie
 
 - Input: \*verification\*\*
   < timestamp> _(length 13)_ + <user*id> *(length 36)_ + <process_id> _(length 36)_ + <img_left_base> _(length 64)_ + <img_right_base> _(length 64)_ + <img_frontal_base> _(length 64)_ + <img_left_test> _(length 64)_ + <img_right_test> _(length 64)_ + <img_frontal_test> _(length 64)_ + < firma > _(length 64)\_
-- Output: **cryptomarket-celery**
+- Output: **system_celery**
   < timestamp> _(length 13)_ + _(json)_ + < firma > _(length 64)_
 
   ```shell
